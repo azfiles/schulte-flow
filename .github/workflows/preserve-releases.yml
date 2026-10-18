@@ -1,0 +1,18 @@
+name: Preserve published releases
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: preserve-schulte-releases
+  cancel-in-progress: false
+jobs:
+  preserve:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - name: Copy checksum-verified APKs and their original evidence
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/preserve-releases.py

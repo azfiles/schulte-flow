@@ -1,0 +1,74 @@
+[
+  {
+    "tag": "godot-v2.0.0",
+    "upstream_tag": "godot-v2.0.0-4-bdc250e",
+    "upstream_source": "bdc250e5712d455d27ab2033d0d1844959df7578",
+    "title": "循光 · Godot 2.0 · 物理关卡体验版",
+    "body": "## 循光 · 流动数字 / Godot 2.0\n\n下载 **Schulte-Flow-Godot-2.0.0.apk**，在 Android 手机上打开并允许安装。需要 Android 7.0 / API 24 及以上、OpenGL ES 3.0。包含 ARM64、ARMv7 和 x86_64。\n\n保留舒尔特表按顺序找数字的玩法，加入 Godot 刚体数字球、球体与边界碰撞反弹、点击推动、碰撞火花、点亮粒子、通关庆祝。9 个关卡从 3×3 逐步增加到 5×5，并逐步提高漂流速度；支持星级、下一关解锁、最佳纪录、暂停隐藏、后台停表、进度恢复和音效/触感开关。\n\n这个版本使用独立包名 `com.alex.schulteflow.godot`，可以与旧版并存；旧版成绩不迁移。应用离线运行，仅申请振动权限，不含广告与统计。\n\n发布门槛：Godot 逻辑测试、真实场景输入/碰撞/关卡测试、APK 签名和对齐验证、Android 10 模拟器上安装并触摸操作发布 APK、截图中可见游戏画面且没有 Godot 渲染错误。验证报告和设备截图随 `verification.tar.gz` 提供。全部关卡通关验证在 Godot 场景测试中进行；Android 设备冒烟验证启动、暂停、恢复、重开、后台及进程重启恢复。未声称完成所有机型、实体触感或听感测试。\n\n使用仓库原有公开演示证书签名，供体验安装；正式商店分发需换用私有证书。\n\n源码提交：bdc250e5712d455d27ab2033d0d1844959df7578\n\n验证运行：https://github.com/azfiles/apkGo/actions/runs/38737005212\n\nGodot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org\n\nMODEL: 368 checks, 0 failures\nGodot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org\n\nFLOW_SCREEN home\nFLOW_SCREEN play level=0\nFLOW_SCREEN pause\nFLOW_SCREEN play level=0\nFLOW_SCREEN pause\nFLOW_SCREEN home\nFLOW_SCREEN play level=0\nFLOW_SCREEN pause\nFLOW_SCREEN play level=0\nFLOW_SCREEN play level=0\nFLOW_SCREEN pause\nFLOW_SCREEN restart\nFLOW_SCREEN play level=0\nFLOW_SCREEN pause\nFLOW_SCREEN restart\nFLOW_SCREEN play level=0\nFLOW_SCREEN play level=0\nFLOW_SCREEN result level=0 stars=3\nFLOW_SCREEN home\nFLOW_SCREEN play level=1\nFLOW_SCREEN result level=1 stars=3\nFLOW_SCREEN home\nFLOW_SCREEN play level=2\nFLOW_SCREEN result level=2 stars=3\nFLOW_SCREEN home\nFLOW_SCREEN play level=3\nFLOW_SCREEN result level=3 stars=3\nFLOW_SCREEN home\nFLOW_SCREEN play level=4\nFLOW_SCREEN result level=4 stars=3\nFLOW_SCREEN home\nFLOW_SCREEN play level=5\nFLOW_SCREEN result level=5 stars=3\nFLOW_SCREEN home\nFLOW_SCREEN play level=6\nFLOW_SCREEN result level=6 stars=3\nFLOW_SCREEN home\nFLOW_SCREEN play level=7\nFLOW_SCREEN result level=7 stars=3\nFLOW_SCREEN home\nFLOW_SCREEN play level=8\nFLOW_SCREEN result level=8 stars=3\nFLOW_SCREEN home\nFLOW_SCREEN home\nSCENE: 53 checks, 0 failures\nPASS: install release APK\nPASS: Android launches release activity\nPASS: screen home\nPASS: rendered home screenshot\nPASS: screen play\nPASS: rendered play screenshot\nPASS: screen pause\nPASS: rendered pause screenshot\nPASS: screen play\nPASS: screen restart\nPASS: screen play\nPASS: screen restart\nPASS: screen play\nPASS: screen pause\nPASS: Android launches release activity\nPASS: screen home\nPASS: screen pause\nPASS: rendered restored screenshot\nPASS: screen play\nPASS: release process remains alive\nPASS: no script error or crash in tested session\nPASS: no Godot renderer or engine errors\nANDROID: 22 checks, 0 failures\n",
+    "assets": [
+      {
+        "name": "Schulte-Flow-Godot-2.0.0.apk",
+        "size": 77152522,
+        "sha256": "d76a349adf0f83ae373cbe21f0340769781249d68b0c430d9cf23ee572c3a805",
+        "url": "https://github.com/azfiles/apkGo/releases/download/godot-v2.0.0-4-bdc250e/Schulte-Flow-Godot-2.0.0.apk"
+      },
+      {
+        "name": "Schulte-Flow-Godot-2.0.0.apk.idsig",
+        "size": 620020,
+        "sha256": "4ec95f39b7864d17a82c04b288a74f19f37b7de7ebc840573b75e70fdebcd0fc",
+        "url": "https://github.com/azfiles/apkGo/releases/download/godot-v2.0.0-4-bdc250e/Schulte-Flow-Godot-2.0.0.apk.idsig"
+      },
+      {
+        "name": "SHA256SUMS.txt",
+        "size": 95,
+        "sha256": "b4dfa159b9dcffaafe2c87b40c434bfbd6deb11748e46a49f959c04767127bbd",
+        "url": "https://github.com/azfiles/apkGo/releases/download/godot-v2.0.0-4-bdc250e/SHA256SUMS.txt"
+      },
+      {
+        "name": "verification.tar.gz",
+        "size": 439468,
+        "sha256": "00dd8bd9001937ba02d6a37f38d06a69d2bc953ac9efb8b0fd86f86fcd169a7a",
+        "url": "https://github.com/azfiles/apkGo/releases/download/godot-v2.0.0-4-bdc250e/verification.tar.gz"
+      }
+    ]
+  },
+  {
+    "tag": "native-v1.0.0",
+    "upstream_tag": "v1.0.0",
+    "upstream_source": "9a293486e0c5379aa93e48f0b9d0767d33e035ce",
+    "title": "循光·舒尔特 v1.0.0 · 体验版",
+    "body": "## 安装\n下载 **Schulte-Flow-1.0.0.apk**，在 Android 手机上打开并按系统提示允许本次安装。支持 Android 8.0 及以上，无需账号、无需联网、无广告。\n\n## 体验\n- 3×3 / 4×4 / 5×5 随机舒尔特表\n- 点击回弹、粒子、连击提示、递进音效与系统触感\n- 点错提示，暂停隐藏数字，切后台自动暂停\n- 当前进度恢复、分难度最佳纪录、通关统计\n\n## 验证与范围\n此 Release 仅在签名验证、逻辑测试和 Android 10 模拟器冒烟测试成功后发布。测试报告随包提供，截图见对应 Actions 的 smoke-evidence。触感强度与音效听感仍需在你的实体手机上体验。\n\n这是使用仓库内公开演示证书签名的体验版，不适合作为正式应用商店发布证书。\n\n构建提交：9a293486e0c5379aa93e48f0b9d0767d33e035ce\n\nTOTAL 92 MODEL CHECKS PASS\nTOTAL 169 UI CHECKS PASS\n\n",
+    "assets": [
+      {
+        "name": "model-report.txt",
+        "size": 27,
+        "sha256": "b27c4a6592e92c5bdfe7b7572916184f20b674008e26e7cb336221c920762359",
+        "url": "https://github.com/azfiles/apkGo/releases/download/v1.0.0/model-report.txt"
+      },
+      {
+        "name": "Schulte-Flow-1.0.0.apk",
+        "size": 140241,
+        "sha256": "2b05c1acbc50931a8cbfc15df6702705f145ffe24dfee8d2858ac2c1a6aab3ff",
+        "url": "https://github.com/azfiles/apkGo/releases/download/v1.0.0/Schulte-Flow-1.0.0.apk"
+      },
+      {
+        "name": "Schulte-Flow-1.0.0.apk.idsig",
+        "size": 5620,
+        "sha256": "6d83f74e43c535cf9d41b811ac186a475df3444f19fd33460c9c4bcec0de605b",
+        "url": "https://github.com/azfiles/apkGo/releases/download/v1.0.0/Schulte-Flow-1.0.0.apk.idsig"
+      },
+      {
+        "name": "SHA256SUMS.txt",
+        "size": 89,
+        "sha256": "880a66e241718e2898f17bc30e4e7f95c093bc54d95392e59d7aaf93e5d66402",
+        "url": "https://github.com/azfiles/apkGo/releases/download/v1.0.0/SHA256SUMS.txt"
+      },
+      {
+        "name": "smoke-report.txt",
+        "size": 26,
+        "sha256": "47aeb7ae2193251e1a745494ab88948dcc81f3aa437b35eda96ed97822f6e303",
+        "url": "https://github.com/azfiles/apkGo/releases/download/v1.0.0/smoke-report.txt"
+      }
+    ]
+  }
+]
